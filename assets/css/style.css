@@ -4,8 +4,13 @@ body {
 }
 
 #kaart1 {
+}
+#kaart2 {
+    margin-left: 25%;
+}
+.kaart {
     background-color: white;
-    position: absolute;
+    position: relative;
     border-radius: 5%;
     margin: 5px;
     padding: 5px;
@@ -13,6 +18,7 @@ body {
 
     font-size: 20px;
     box-sizing: border-box;
+
 }
 .cornercontainer {
     /* background-color: red; */
@@ -20,8 +26,11 @@ body {
     display: inline-block;
 }
 .cornercontainer.bottom {
-    background-color: yellow;
+    /* background-color: yellow; */
     float: right;
+}
+.clearfix {
+        clear: both;
 }
 
 .cornernumbertop {
@@ -35,14 +44,15 @@ img.icon {
     height: 20px;
 }
 .pip {
-    background-color: aqua;
+    /* background-color: aqua; */
+    text-align: center;
 }
 .pip img {
     margin-top: 5px;
     margin-bottom: 5px: 
 }
 .smallcloverbottom {
-    background-color: beige;
+    /* background-color: beige; */
     rotate: 180deg;
 }
 .cornernumberbottom {
