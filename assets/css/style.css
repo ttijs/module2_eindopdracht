@@ -1,26 +1,51 @@
 body {
     background-color: green;
-    color: white;
+    color: black;
 }
 
 #kaart1 {
     background-color: white;
+    position: absolute;
+    border-radius: 5%;
+    margin: 5px;
+    padding: 5px;
+    width: 149px;
+
+    font-size: 20px;
+    box-sizing: border-box;
 }
+.cornercontainer {
+    /* background-color: red; */
+    text-align: center;
+    display: inline-block;
+}
+.cornercontainer.bottom {
+    background-color: yellow;
+    float: right;
+}
+
 .cornernumbertop {
-    background-color: blue;
+    /* background-color: blue; */
 }
 .smallclovertop {
-    background-color: pink;
+    /* background-color: pink; */
+    
 }
 img.icon {
-    height: 40px;
+    height: 20px;
 }
 .pip {
     background-color: aqua;
 }
+.pip img {
+    margin-top: 5px;
+    margin-bottom: 5px: 
+}
 .smallcloverbottom {
     background-color: beige;
+    rotate: 180deg;
 }
 .cornernumberbottom {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    rotate: 180deg;
 }
